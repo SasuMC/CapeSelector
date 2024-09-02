@@ -22,9 +22,9 @@ public class SelectorCommand {
                 .then(CommandManager.literal("select")
                         .then(CommandManager.argument("cape", StringArgumentType.word())
                                 .suggests(new CapeSuggestionProvider())
-                                .executes(SelectorCommand::selectCape))
+                                .executes(SelectorCommand::selectCape)))
                 .then(CommandManager.literal("remove")
-                        .executes(SelectorCommand::removeCape)));
+                        .executes(SelectorCommand::removeCape));
 
 
         dispatcher.register(commandDispatcher);
