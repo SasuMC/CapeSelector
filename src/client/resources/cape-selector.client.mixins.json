@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "dev.template.mixin",
+	"package": "dev.cape.mixin.client",
 	"compatibilityLevel": "JAVA_17",
-	"mixins": [
-		"ExampleMixin"
+	"client": [
+      "PlayerListEntryMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
