@@ -5,11 +5,11 @@
 	"name": "Cape Selector",
 	"description": "",
 	"authors": [
-		"Me!"
+		"SasuMC"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/SasuMC/",
+		"sources": "https://github.com/SasuMC/CapeSelector"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/cape-selector/icon.png",
